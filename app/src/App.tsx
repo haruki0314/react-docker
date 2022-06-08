@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import ReactDOM from "react-dom";
 
 function App() {
   return (
@@ -8,7 +9,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          <h1>hello</h1>
+          <p>rCreated a development environment using eact and docker</p>
+          <code>src/App.tsx</code> and save to reload.
         </p>
         <a
           className="App-link"
