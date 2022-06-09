@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import ReactDOM from "react-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -19,11 +20,22 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          It'll take you to another site.
         </a>
       </header>
     </div>
   );
+}
+function Home() {
+  return <h2>Home</h2>;
+}
+
+function About() {
+  return <h2>About</h2>;
+}
+
+function Contact() {
+  return <h2>Contact</h2>;
 }
 
 export default App;
