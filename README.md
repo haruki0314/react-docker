@@ -1,2 +1,2 @@
 # react-docker
-reactとtypescriptの開発環境をdockerで構築
+reactとtypescriptの開発環境をdockerで構築しました。
